@@ -1,0 +1,161 @@
+@font-face {
+    font-family: "fontLogo";
+    src: url("../fonts/font_logo.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "fontMenu";
+    src: url("../fonts/font_menu.ttf") format("truetype");
+}
+
+body{
+    margin: 0px;
+    background: rgb(255,255,255); /* Old browsers */
+/*background: rgb(255,255,255);  Old browsers 
+background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%, rgba(196,237,192,1) 100%);  FF3.6+ 
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(196,237,192,1)));  Chrome,Safari4+ 
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%,rgba(196,237,192,1) 100%);  Chrome10+,Safari5.1+ 
+background: -o-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%,rgba(196,237,192,1) 100%);  Opera 12+ 
+background: -ms-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%,rgba(196,237,192,1) 100%);  IE10+ 
+background: radial-gradient(ellipse at center,  rgba(255,255,255,1) 0%,rgba(196,237,192,1) 100%);  W3C 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#c4edc0',GradientType=1 );  IE6-9 fallback on horizontal gradient */
+
+}
+
+#banner{
+    background-image: url("../images/banner.JPG") ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    display: table;
+    height:200px;
+    box-shadow: 0px 10px 10px #999999;
+    
+}
+#logo{
+    width: 100%; 
+    color: white;
+    font-size: 45px;
+    font-family: fontLogo;
+    
+    
+    margin: 0 auto;
+    height: 100%;
+    
+    /*texto centrado*/
+    -ms-display: flex;
+    display: flex;
+    /* alineacion vertical */
+    align-items: center;
+     /* alineacion horizontal */
+    justify-content: center;
+    /*texto centrado*/
+    
+    text-shadow: 6px 6px 10px #999999;
+    letter-spacing: 10px;
+}
+
+#menuCentrado{
+    margin: 0 auto;
+    width: 700px;
+    height: 90%;
+    /*background-color: #999999;*/
+    padding-top: 10px;
+}
+
+#menu{
+    width:100%;
+    /*background-color: black;*/
+    background: #356aa0; /* Old browsers */
+    background: -moz-linear-gradient(top,  #356aa0 0%, #356aa0 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#356aa0), color-stop(100%,#356aa0)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #356aa0 0%,#356aa0 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #356aa0 0%,#356aa0 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #356aa0 0%,#356aa0 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #356aa0 0%,#356aa0 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#356aa0', endColorstr='#356aa0',GradientType=0 ); /* IE6-9 */
+
+    color: white;
+    height: 80px;
+    box-shadow: 0px 5px 5px #999999;
+    margin-bottom: 20px;
+}
+
+.mItem{
+    /*background-color: #ff0000;*/
+    width: 210px;
+    height: 30px;
+    float: left;
+    margin-left: 20px;
+    text-align: center;
+    border-radius: 5px;
+    /*box-shadow: 10px 10px 10px #509111;*/
+    font-family: fontMenu;
+    font-size: 20px;
+    text-shadow: 3px 3px 5px #999999;
+    padding-top: 18px;
+    padding-bottom: 20px;
+    
+    letter-spacing: 3px;
+}
+
+.mItem:hover{
+    /*background-color: #ff0000;*/
+    width: 210px;
+    height: 30px;
+    float: left;
+    margin-left: 20px;
+    text-align: center;
+    border-radius: 5px;
+    font-family: fontMenu;
+    font-size: 20px;
+    /*text-shadow: 6px 6px 10px red;*/
+    padding-top: 18px;
+    padding-bottom: 20px;
+    color: yellow;
+    letter-spacing: 3px;
+}
+
+#menuCentrado a{
+    text-decoration: none;
+    color: white;
+    transition: ease-in 0.2s;
+}
+
+#menuCentrado a:hover{
+    text-decoration: none;
+    transition: ease-in 0.2s;
+    color: yellow;
+}
+
+#foot{
+    height: 50px;
+    text-align: center;
+    background: #356aa0; /* Old browsers */
+background: -moz-linear-gradient(top,  #356aa0 0%, #356aa0 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#356aa0), color-stop(100%,#356aa0)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #356aa0 0%,#356aa0 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #356aa0 0%,#356aa0 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #356aa0 0%,#356aa0 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #356aa0 0%,#356aa0 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#356aa0', endColorstr='#356aa0',GradientType=0 ); /* IE6-9 */
+color:white;
+
+/*texto centrado*/
+    -ms-display: flex;
+    display: flex;
+    /* alineacion vertical */
+    align-items: center;
+     /* alineacion horizontal */
+    justify-content: center;
+    /*texto centrado*/
+    
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-family: fontMenu;
+    box-shadow: 0px -5px 5px #999999;
+    margin-top: 10px;
+    width:100%;
+}
