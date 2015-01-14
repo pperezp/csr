@@ -1,0 +1,67 @@
+    
+	0,48 UF + IVA mensual. --> 
+    2,95% crédito (por transacción)
+    1,79% débito (por transacción)
+	
+Contacto comercial (?)
+------------------
+Nombre: Juan Carlos Mackay Jarpa
+Rut: 7341811-9
+Telefono (Fijo):x --> 8880505
+Email contacto comercial: mackay.propiedades@vtr.net
+
+Contacto técnico
+Nombre
+rut
+Telefono
+Email
+
+Datos empresa
+-------------
+Nombre representante legal: Juan Carlos Mackay Jarpa
+rut: 76084716-k
+nombre empresa: 
+razon social: Administraciones e Inversiones Mackay Moya Limitada
+rut empresa: 76084716-k
+region: VI Región
+ciudad: Rancagua
+comuna: Rancagua
+direccion: Oficial Gamero #160
+telefono: 8880505
+email: mackay.propiedades@vtr.net
+
+
+/*envia un mail al cliente y al dueño*/
+y envia un detalle al fin del dia
+
+
+https://www.youtube.com/watch?v=JeP_frMMhKc
+https://www.transbank.cl/public/documentacion/
+
+-------------------
+- Historial de rut
+- Desercion
+
+--> Registro de cliente	
+	rut
+	nombre
+	Telefono	
+	mail
+	el usuario debe tener un saldo
+	
+	Inicio de sesion ()
+		-admin --> tomar hora de cancha y poder borrar (con color distinto)
+		-Visualización semanal
+		-Castigo si no cumple
+		
+	Reservar cancha (Limitacion 2 meses)
+	
+3 opciones nombre 
+	- csr
+	- centrosport (x)
+	- centrosportrancagua (x)
+
+/*Posicionamiento en google (Investigar)*/
+
+	
+	
